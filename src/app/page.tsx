@@ -53,8 +53,8 @@ export default function LandingPage() {
         <div className="flex items-center gap-2 z-50">
 
           <div className='flex flex-row gap-2'>
-          <img src="./logo.png" className='w-10 h-10 rounded-xl' />
-          <span className="font-bold text-white text-4xl tracking-tight select-none drop-shadow-md">
+          <img src="./logo.png" className='w-6 h-6 md:w-10 md:h-10 rounded-xl' />
+          <span className="font-bold text-white text-2xl md:text-4xl tracking-tight select-none drop-shadow-md">
             ColAi
           </span>
 
@@ -71,14 +71,14 @@ export default function LandingPage() {
         </div>
 
         <div className="z-50 flex items-center rounded-full bg-[var(--primary)] hover:bg-[var(--primary-dark)] transition-colors cursor-pointer shadow-lg">
-          <a href="mailto:ogzdlk06@gmail.com, burakalicankilinc@gmail.com" className="font-bold px-5 py-2 text-white text-xl tracking-tight select-none">Contact Us</a>
+          <a href="mailto:ogzdlk06@gmail.com, burakalicankilinc@gmail.com" className="font-bold px-3 py-1 md:px-5 md:py-2 text-white text-lg md:text-xl tracking-tight select-none">Contact Us</a>
           
         </div>
       </header>
 
       <main>
         
-        <section className="relative h-[700px] flex items-center justify-center mb-24 overflow-hidden pt-24">
+        <section className="relative md:h-[800px]  h-[650px] flex items-center justify-center mb-24 overflow-hidden pt-24">
           <HeroEffect />
           <div className="relative z-10 max-w-5xl mx-auto px-4 text-center mt-12">
             <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 text-white drop-shadow-lg leading-tight">
