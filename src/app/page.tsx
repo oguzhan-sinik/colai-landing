@@ -53,10 +53,7 @@ export default function LandingPage() {
         <div className="flex items-center gap-2 z-50">
 
           <div className='flex flex-row gap-2'>
-
-          <Image>
-            
-          </Image>
+          <img src="./logo.png" className='w-10 h-10 rounded-xl' />
           <span className="font-bold text-white text-4xl tracking-tight select-none drop-shadow-md">
             ColAi
           </span>
